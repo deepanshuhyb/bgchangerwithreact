@@ -12,7 +12,7 @@ function App() {
     style={{backgroundColor: color}}>
       <div className='fixed flex flex-wrap justify-center bottom-12 inset-x-0 px-2'>
         <div className='flex flex-wrap justify-center gap-3'>
-          <button onClick={()=>{setcolor('red')}}>red</button>
+          <button onClick={()=>{setcolor('red')}} style={{backgroundColor: 'red'}}>red</button>
           <button onClick={()=>{setcolor('green')}} style={{backgroundColor: 'green'}}>green</button>
           <button onClick={()=>{setcolor('yellow')}} style={{backgroundColor: 'yellow'}}>yellow</button>
           <button onClick={()=>{setcolor('purple')}} style={{backgroundColor: 'purple'}}>purple</button>
